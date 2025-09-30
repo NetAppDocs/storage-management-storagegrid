@@ -1,0 +1,9 @@
+=== New advanced view
+Starting with StorageGRID 11.8, you can use the familiar Grid Manager interface to manage your StorageGRID system from BlueXP.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-administer-storagegrid.html[Learn how to administer StorageGRID using the advanced view].
+
+=== Ability to review and approve StorageGRID management interface certificate
+You now have the ability to review and approve a StorageGRID management interface certificate when discovering the StorageGRID system from BlueXP. You can also review and approve the latest StorageGRID management interface certificate on a discovered grid.
+
+https://docs.netapp.com/us-en/bluexp-storagegrid/task-discover-storagegrid.html[Learn how to review and approve the server certificate during system discovery.]

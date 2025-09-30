@@ -1,0 +1,55 @@
+---
+sidebar: sidebar
+permalink: task-manage-certificates.html
+keywords: storagegrid, certificate, manage, manage interface certificate, refresh certificate, update certificate
+summary: Since certificates can expire, you occasionally might need to view the status or update a certificate.
+---
+
+= View and update StorageGRID certificates in the NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+A management interface certificate is required on your StorageGRID system before you discover the system from the NetApp Console. The certificate provides a secure connection between the Console and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
+
+.Required NetApp Console role:
+Storage admin. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+
+== View the status of a management interface certificate
+
+View the status of the management interface certificate for a StorageGRID system to verify that the certificate is still valid.
+
+
+.Steps
+
+. From the navigation menu, select *Storage > Management*.
+
+. On the *Systems* page, select the StorageGRID system.
+
+. From the standard view, check the status of the user approved certificate at the bottom of the _Information_ pane on the right side of the page. 
++
+NOTE: The certificate status is refreshed once every 24 hours.
+
+
+== Update the management interface certificate
+
+If the status of your management interface certificate is not valid or you receive a notification that your certificate has expired, you will need to update it so the NetApp Console can connect to StorageGRID. 
+
+.Steps
+
+. Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
+
+. From the NetApp Console navigation menu, select *Storage > Management*.
+
+. On the *Systems* page, select the StorageGRID system.
+
+. Select the more options icon (circle with three vertical dots).
++
+image:screenshot-update-certificate.png[A screenshot of the of the update menu.]
+
+. Select *Update certificate*.
+
+. On the _Approve certificate_ page, select *Approve Certificate* to use the updated certificate.

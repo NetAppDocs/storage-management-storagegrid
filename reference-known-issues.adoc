@@ -1,0 +1,28 @@
+---
+sidebar: sidebar
+permalink: reference-known-issues.html
+keywords: issues, known issues, bugs, errors, storagegrid, storage grid, storagegrid known issues, netapp console known issues
+summary: Known issues identify problems that might prevent you from using this release of the product successfully.
+---
+
+= Known issues for managing StorageGRID in NetApp Console
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Known issues identify problems that might prevent you from using this release of the product successfully.
+
+== Updated display names don't appear in the NetApp Console
+
+If you use the rename procedure to define a new display name for a site or grid, the new display name isn't reflected in the NetApp Console. Within the NetApp Console, the system continues to show the system name and not the new display name.
+
+== Error when filtering alerts
+
+When using the advanced view, filtering the contents of the Alerts page results in an error.
+
+== Error when editing grid federation connection
+
+When using the advanced view, you might encounter a gateway timeout error when editing a grid federation connection.

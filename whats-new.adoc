@@ -1,0 +1,34 @@
+---
+sidebar: sidebar
+permalink: whats-new.html
+keywords: what's new, features, new, release notes, bugs, limitations, known issues, enhancements, fixes, storagegrid
+summary: Learn what's new with managing StorageGRID systems in NetApp Console.
+---
+
+= What's new with StorageGRID management
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Learn what's new with managing StorageGRID systems in the NetApp Console.
+
+// tag::whats-new[]
+
+== 6 October 2025
+
+include::_whatsnew/2025-10-06.adoc[]
+== 12 May 2025
+
+include::_whatsnew/2025-05-12.adoc[]
+
+== 7 August 2024
+
+include::_whatsnew/2024-08-07.adoc[]
+
+== 18 September 2022
+
+include::_whatsnew/2022-09-18.adoc[]
+// end::whats-new[]
