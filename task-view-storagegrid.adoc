@@ -1,0 +1,38 @@
+---
+sidebar: sidebar
+permalink: task-view-storagegrid.html
+keywords: storagegrid, cluster, view, alerts, nodes, tenants, capacity, used capacity, free capacity, system ID, domain, IP, object data used, object metadata used, cpu usage, quota utilization, quota
+summary: After you discover your StorageGRID systems, you can view details about capacity distribution and the associated alerts, nodes, and tenants.
+---
+
+= View your StorageGRID systems
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+After you discover your StorageGRID systems, you can view details about capacity distribution and the associated alerts, nodes, and tenants.
+
+.Required NetApp Console role:
+Storage admin or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+
+
+.Steps
+
+. From the navigation menu, select *Storage > Management*.
+
+. On the *Systems* page, select the StorageGRID system that you want to view.
+
+. Select from the available menu options to view more details about your StorageGRID system:
++
+* *Overview*: A detailed view of the system's capacity distribution (used and free capacity), the number of system alerts, nodes, and tenants, and more.
+
+* *Alerts*: A summary of system alerts, which includes active alerts, resolved alerts, and silenced alerts.
+
+* *Nodes*: Details about the admin node, API gateway node, and storage nodes. This includes percentages for object data used, object metadata used, and CPU usage.
+
+
+* *Tenants*: Key details about tenants, which includes logical space used, quota utilization, quota, and object count.
+

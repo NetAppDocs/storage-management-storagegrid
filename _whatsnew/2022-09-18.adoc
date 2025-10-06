@@ -1,0 +1,2 @@
+=== Support for StorageGRID
+You can now discover your StorageGRID systems directly from BlueXP. Discovering StorageGRID provides you with a complete view of data across your hybrid multicloud.

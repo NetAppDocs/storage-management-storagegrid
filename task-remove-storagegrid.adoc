@@ -1,0 +1,32 @@
+---
+sidebar: sidebar
+permalink: task-remove-storagegrid.html
+keywords: storagegrid, cluster, remove, delete, remove storagegrid, delete cluster, delete working environment, remove working environment, remove system, delete system
+summary: Remove a StorageGRID system if you no longer want to manage it from the NetApp Console.
+---
+
+= Remove a StorageGRID system
+:hardbreaks:
+:nofooter:
+:icons: font
+:linkattrs:
+:imagesdir: ./media/
+
+[.lead]
+Remove a StorageGRID system if you no longer want to manage it from the NetApp Console.
+
+.Required NetApp Console role:
+Storage admin. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+
+
+Removing the system from the Console doesn't affect the StorageGRID system. You can re-add it to the Console at any time.
+
+.Steps
+
+. From the navigation menu, select *Storage > Management*.
+
+. From the *Systems* page, open the StorageGRID system.
+
+. From the standard view, select the menu icon and select *Remove from Workspace*.
+
+. Select *Remove* to confirm.
