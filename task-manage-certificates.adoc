@@ -46,9 +46,9 @@ If the status of your management interface certificate is not valid or you recei
 
 . On the *Systems* page, select the StorageGRID system.
 
-. Select the more options icon (circle with three vertical dots).
+. Select the more options icon (circle with three horizontal dots).
 +
-image:screenshot-update-certificate.png[A screenshot of the of the update menu.]
+image::screenshot-update-certificate.png[A screenshot of the of the update menu.]
 
 . Select *Update certificate*.
 
