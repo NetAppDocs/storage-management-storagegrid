@@ -68,6 +68,7 @@ The Console doesn't currently support the Tenant Manager. Although you can creat
 | 
 * Grid topology
 * Log collection
+* All links to Prometheus metrics and Grafana dashboards
 * All options for legacy alarms
 * Link cost
 * NMS entities
@@ -85,8 +86,7 @@ Open a StorageGRID system and select the Grid Manager option.
 
 . Use Grid Manager to manage the StorageGRID system.
 
-. If needed, select Switch to standard view to return to standard view through Console.
-
+. If needed, select *Go back* to return to standard view through Console.
 
 == Get help with Grid Manager
 
