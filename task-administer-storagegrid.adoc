@@ -16,7 +16,7 @@ summary: Administer a StorageGRID system from the NetApp Console by using the ad
 Administer a StorageGRID system from the Console by using the advanced view. This view enables you to use Grid Manager from the Console.
 
 .Required NetApp Console role:
-Storage admin, or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about access roles.^]
+Storage admin, or System health specialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about access roles^].
 
 == Supported configurations
 

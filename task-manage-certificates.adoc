@@ -16,7 +16,7 @@ summary: Since certificates can expire, you occasionally might need to view the 
 A management interface certificate is required on your StorageGRID system before you discover the system from the NetApp Console. The certificate provides a secure connection between the Console and StorageGRID. Since certificates can expire, you occasionally might need to view the status or update a certificate.
 
 .Required NetApp Console role:
-Storage admin. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+Storage admin. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
 
 == View the status of a management interface certificate
 
@@ -40,7 +40,7 @@ If the status of your management interface certificate is not valid or you recei
 
 .Steps
 
-. Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
+. Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
 
 . From the NetApp Console navigation menu, select *Storage > Management*.
 
