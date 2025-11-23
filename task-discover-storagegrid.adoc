@@ -16,13 +16,13 @@ summary: Discover the StorageGRID systems in your on-premises environment and th
 Manage  your StorageGrid systems directly from the NetApp Console using Grid Manager.
 
 .Required NetApp Console role:
-Storage admin or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
+Storage admin or System health specialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
 
 .Before you begin
 
 You need the following:
 
-* A NetApp Console Agent using version 3.9.43 or later. You must have the Organization admin role to install a Console Agent. If you don't know if your organization has a Console Agent, or if you need one created, contact your NetApp Console administrator. https://docs.netapp.com/us-en/bluexp-setup-admin/task-user-settings.html#contact-your-organization-administrator[Contact your Organization admin.^]
+* A NetApp Console Agent using version 3.9.43 or later. You must have the Organization admin role to install a Console Agent. If you don't know if your organization has a Console Agent, or if you need one created, contact your NetApp Console administrator. https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html#contact-your-organization-administrator[Contact your Organization admin^].
 
 
 

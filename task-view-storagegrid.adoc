@@ -16,8 +16,7 @@ summary: After you discover your StorageGRID systems, you can view details about
 After you discover your StorageGRID systems, you can view details about capacity distribution and the associated alerts, nodes, and tenants.
 
 .Required NetApp Console role:
-Storage admin or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles.^]
-
+Storage admin or System health specialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about NetApp Console access roles^].
 
 .Steps
 
