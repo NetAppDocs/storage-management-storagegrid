@@ -26,7 +26,7 @@ Grid Manager is available in the Console starting with StorageGRID 11.8.
 
 The following Grid Manager operations are not available from the Console. If you need to perform these operations, sign in to the Grid Manager directly.
 
-[cols="1a,2a" options=header] 
+[cols="1a,3a" options=header] 
 |===
 | Grid Manager menu
 | Operations not available from the Console
