@@ -16,7 +16,7 @@ summary: Administer a StorageGRID system from the NetApp Console by using the ad
 Administer a StorageGRID system from the Console by using the advanced view. This view enables you to use Grid Manager from the Console.
 
 .Required NetApp Console role:
-Storage admin, or System health specialist. link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html[Learn about access roles.^]
+Storage admin, or System health specialist. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html[Learn about access roles^].
 
 == Supported configurations
 
@@ -53,7 +53,6 @@ The Console doesn't currently support the Tenant Manager. Although you can creat
 | Configuration
 | 
 * Grid passwords
-* Traffic classification > Metrics
 * Security settings > Browser inactivity timeout
 * Single sign-on 
 * SNMP agent > MIB file for BMC interface
@@ -68,30 +67,26 @@ The Console doesn't currently support the Tenant Manager. Although you can creat
 
 | 
 * Grid topology
-* Logs
-* Metrics, including all links to Prometheus metrics and Grafana dashboards from other places in the UI.
+* Log collection
+* All links to Prometheus metrics and Grafana dashboards
 * All options for legacy alarms
 * Link cost
 * NMS entities
-
-
 |===
 
-== Switch to the advanced view
+== Switch to Grid Manager
 
-Open a StorageGRID system and select the advanced view option.
+Open a StorageGRID system and select the Grid Manager option.
 
 .Steps
 
 . From the *Systems* page, open the StorageGRID system.
 
-. In the top-right, select *Switch to Advanced View*.
-
+. In the top-right, select *Switch to Grid Manager*.
 
 . Use Grid Manager to manage the StorageGRID system.
 
-. If needed, select Switch to standard view to return to standard view through Console.
-
+. If needed, select *Go back* to return to standard view through Console.
 
 == Get help with Grid Manager
 
