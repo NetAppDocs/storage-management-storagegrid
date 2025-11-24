@@ -90,4 +90,4 @@ Open a StorageGRID system and select the Grid Manager option.
 
 == Get help with Grid Manager
 
-If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid-118/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
+If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
