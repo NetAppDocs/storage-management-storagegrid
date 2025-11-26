@@ -32,7 +32,7 @@ You need the following:
 
 * A management interface certificate installed on your StorageGRID system. 
 +
-https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Learn more about installing a management interface certificate on StorageGRID^]
+https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html[Learn more about installing a management interface certificate on StorageGRID^]
 
 .Steps
 
@@ -50,7 +50,7 @@ https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-ce
 
 +
 . To use a different certificate, first set it up on your StorageGRID system.
-.. In your on-premises StorageGRID system, follow the instructions: https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID^].
+.. In your on-premises StorageGRID system, follow the instructions: https://docs.netapp.com/us-en/storagegrid/admin/using-storagegrid-security-certificates.html[Installing a management interface certificate on StorageGRID^].
 
 .. After configuring the certificate in the StorageGRID system, select *Cancel* on the _Approve certificate_ page in the Console.
 
