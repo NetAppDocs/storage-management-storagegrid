@@ -1,0 +1,7 @@
+=== Support for StorageGRID 12.1
+
+You can now manage your StorageGRID 12.1 system from NetApp Console.
+
+https://docs.netapp.com/us-en/storage-management-storagegrid/task-administer-storagegrid.html[Learn how to administer StorageGRID using the advanced view in NetApp Console].
+
+
