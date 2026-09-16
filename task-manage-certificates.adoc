@@ -40,15 +40,15 @@ If the status of your management interface certificate is not valid or you recei
 
 .Steps
 
-. Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid-118/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
+. Go to your on-premises Grid Manager in StorageGRID and follow the instructions for https://docs.netapp.com/us-en/storagegrid/admin/configuring-custom-server-certificate-for-grid-manager-tenant-manager.html#add-a-custom-management-interface-certificate[Installing a management interface certificate on StorageGRID].
 
 . From the NetApp Console navigation menu, select *Storage > Management*.
 
 . On the *Systems* page, select the StorageGRID system.
 
-. Select the more options icon (circle with three vertical dots).
+. Select the more options icon (circle with three horizontal dots).
 +
-image:screenshot-update-certificate.png[A screenshot of the of the update menu.]
+image::screenshot-update-certificate.png[A screenshot of the of the update menu.]
 
 . Select *Update certificate*.
 

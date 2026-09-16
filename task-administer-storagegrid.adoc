@@ -26,7 +26,7 @@ Grid Manager is available in the Console starting with StorageGRID 11.8.
 
 The following Grid Manager operations are not available from the Console. If you need to perform these operations, sign in to the Grid Manager directly.
 
-[cols="1a,2a" options=header] 
+[cols="1a,3a" options=header] 
 |===
 | Grid Manager menu
 | Operations not available from the Console
@@ -53,7 +53,6 @@ The Console doesn't currently support the Tenant Manager. Although you can creat
 | Configuration
 | 
 * Grid passwords
-* Traffic classification > Metrics
 * Security settings > Browser inactivity timeout
 * Single sign-on 
 * SNMP agent > MIB file for BMC interface
@@ -68,31 +67,27 @@ The Console doesn't currently support the Tenant Manager. Although you can creat
 
 | 
 * Grid topology
-* Logs
-* Metrics, including all links to Prometheus metrics and Grafana dashboards from other places in the UI.
+* Log collection
+* All links to Prometheus metrics and Grafana dashboards
 * All options for legacy alarms
 * Link cost
 * NMS entities
-
-
 |===
 
-== Switch to the advanced view
+== Switch to Grid Manager
 
-Open a StorageGRID system and select the advanced view option.
+Open a StorageGRID system and select the Grid Manager option.
 
 .Steps
 
 . From the *Systems* page, open the StorageGRID system.
 
-. In the top-right, select *Switch to Advanced View*.
-
+. In the top-right, select *Switch to Grid Manager*.
 
 . Use Grid Manager to manage the StorageGRID system.
 
-. If needed, select Switch to standard view to return to standard view through Console.
-
+. If needed, select *Go back* to return to standard view through Console.
 
 == Get help with Grid Manager
 
-If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid-118/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
+If you need help using Grid Manager, refer to https://docs.netapp.com/us-en/storagegrid/admin/index.html[StorageGRID documentation^] for step-by-step instructions.
